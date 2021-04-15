@@ -16,7 +16,7 @@
 + :white_check_mark: Release
 
 ### Need help
-  I want to put a backend on this Site but I don't know anything about Back yet. So if you want to help me by creating and teaching me how to link the Front with BAck, I will be     immensely grateful.
+  I want to put a backend on this Site but I don't know anything about Back yet. So if you want to help me by creating and teaching me how to link the Front with Back, I will be     immensely grateful.
   
   ## *Contact me via*
   - [Linkedin](https://www.linkedin.com/in/rhayan-pontes-618a2220a/)
