@@ -7,23 +7,28 @@
     justify-content: center;
 }
 
+.contact-session h1{
+    font-family: var(--font-primary);
+}
+
 .contact-wrapper{
     width: 60%;
     height: 30rem;
     display: flex;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,0.8);
 }
 
 .contact-left{
     width: 35%;
     background:    
         linear-gradient(rgba(15,15,15,0.6), rgba(22,22,22,0.9)), 
-        url(assents/img/Contact.jpg);
+        url(/assents/img/Contact.png);
     background-size: cover;
 }
 
 .contact-right{
     width: 65%;
     background-color: #fff;
-    padding: 3rem 10rem 10rem;
+    padding: 1rem 3rem 3rem 3rem;
 
 }
