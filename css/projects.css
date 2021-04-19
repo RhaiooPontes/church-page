@@ -64,10 +64,7 @@
 
 }
 
-.card-info button{
-
-    width: 8rem;
-    height: 2.5rem;
+.btn{
     background: #c94b4b;  
     background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
     background: linear-gradient(to right, #4b134f, #c94b4b);
@@ -77,6 +74,11 @@
     border-radius: .8rem;
     box-shadow: 0 .1rem .8rem rgba(0,0,0,.4);
     border: none;
+}
+
+.card-info button{
+    width: 8rem;
+    height: 2.5rem;
 }
 
 .card:hover .card-info{
