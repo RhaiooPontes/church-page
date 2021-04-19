@@ -1,0 +1,29 @@
+.contact-session{
+    width: 100%;
+    height: 100vh;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-wrapper{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+}
+
+.contact-left{
+    width: 35%;
+    background:    
+        linear-gradient(rgba(15,15,15,0.6), rgba(22,22,22,0.9)), 
+        url(assents/img/Contact.jpg);
+    background-size: cover;
+}
+
+.contact-right{
+    width: 65%;
+    background-color: #fff;
+    padding: 3rem 10rem 10rem;
+
+}
