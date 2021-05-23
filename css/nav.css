@@ -10,6 +10,7 @@
 }
 
 .showMenu .sidebar{
+    z-index: 150;
     right: 0;
 }
 
@@ -18,11 +19,13 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 150;
 }
 
 .menu-item{
     text-align: center;
     margin-bottom: .4rem;
+    z-index: 150;
 }
 
 .menu-link{
@@ -31,10 +34,12 @@
    color: #808080;
    /* line-height: 2.5rem;  */
    transition: color 1s;
+   z-index: 150;
 }
 
 .menu-link:hover{
     color: #4b134f;
+    z-index: 150;
 }
 
 .social-media{
@@ -43,6 +48,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    z-index: 150;
 }
 
 .social-media i{
@@ -56,8 +62,10 @@
     justify-content: center;
     border-radius: 50%;
     transition: background-color .5s;
+    z-index: 150;
 }
 
 .social-media i:hover{
     background-color: #ee00ff;
+    z-index: 150;
 }

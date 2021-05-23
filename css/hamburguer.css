@@ -10,10 +10,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    z-index: 150;
 }
 
 .showMenu .hamburguer{
     right: 16rem;
+    z-index: 150;
 }
 
 .lines{
@@ -22,20 +24,24 @@
     background-color: #fff;
     box-shadow: 0.1rem 0.1rem 1.5px #000;
     transition: transform .5s;
+    z-index: 150;
 
 }
 
 .showMenu #line1{
     transform: rotate(45deg) translate(.3rem, .45rem);
+    z-index: 150;
 }
 
 .showMenu #line2{
     opacity: 0;
     visibility: hidden;
+    z-index: 150;
 }
 
 .showMenu #line3{
     transform: rotate(-45deg) translate(.3rem, -.45rem);
+    z-index: 150;
 }
 
 .hamburguer span{
@@ -50,6 +56,7 @@
     background-color: #a044ff;
     color: #fff;
     font-family: var(--font-action);
+    z-index: 150;
 }
 
 .hamburguer span::before{
@@ -60,8 +67,11 @@
     border-left: .5rem solid transparent;
     border-bottom: .5rem solid transparent;
     left: -1rem;
+    z-index: 150;
 }
 
 .showMenu .hamburguer:hover span{
     opacity: 1;
+    z-index: 150;
+    z-index: 150;
 }
